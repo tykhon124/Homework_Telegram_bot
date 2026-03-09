@@ -2,34 +2,29 @@
     "1": [],
     "5927736607": [
         {
-            "day": "tuesday",
-            "subject": "asdassdsadada",
-            "w_task": "adasdasdasdas"
+            "day": "monday",
+            "subject": "Math",
+            "w_task": "40+40"
+        },
+        {
+            "day": "wednesday",
+            "subject": "History",
+            "w_task": "Read chapter about Ancient Rome"
         },
         {
             "day": "thursday",
-            "subject": "сячсяся",
-            "w_task": "сячс"
-        },
-        {
-            "day": "wednesday",
-            "subject": "ы",
-            "w_task": "1231233"
-        },
-        {
-            "day": "wednesday",
-            "subject": "asd",
-            "w_task": "asdasda"
+            "subject": "Biology",
+            "w_task": "Learn parts of the human cell"
         },
         {
             "day": "friday",
-            "subject": "dasdad",
-            "w_task": "asdadd"
+            "subject": "Geography",
+            "w_task": "Learn capitals of 5 European countries"
         },
         {
-            "day": "thursday",
-            "subject": "1231233123",
-            "w_task": "явафыавфыайфафыфыа"
+            "day": "tuesday",
+            "subject": "English",
+            "w_task": "Learn 10 new words and write 5 sentences"
         }
     ]
 }
