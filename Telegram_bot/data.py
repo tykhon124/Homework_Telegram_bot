@@ -80,10 +80,10 @@ def delete_notice(user_id: str, index: int):
         logger.warning("No user id")
         return False
 
-    if index < 1 or index > len(data[user_id]):
+    if index < 0 or index >= len(data[user_id]):
         return False
 
-    data[user_id].pop(index - 1)
+    data[user_id].pop(index)
     save_data(data)
     return True
 
@@ -92,4 +92,5 @@ def read_user_data(user_id: str):
     """Read user data"""
     data = load_data()
     logger.info("User id read")
+
     return data.get(user_id, [])
