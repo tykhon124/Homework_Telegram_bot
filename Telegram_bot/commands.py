@@ -1,14 +1,6 @@
 import logging
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s | %(levelname)s | %(name)s | %(message)s',
-        handlers=[
-            logging.FileHandler("bot_logger.log", mode="a", encoding="utf-8"),
-            logging.StreamHandler()
-        ]
-    )
 
 # commands.py - модуль в якому оголошені всі необхідні команди(та їх фільтри)
 from aiogram.filters import Command
